@@ -1,0 +1,47 @@
+
+    .container {
+    position: relative;
+    top: 40%;
+    height: 400px;
+    width:  800Px;
+    margin-top: 200px ; 
+    /* margin-left: 265px ;  */ 
+    text-align:center
+    /* background-color: lightgray;  */
+} 
+
+.para {
+   margin-top: 10%;
+   text-align:left;
+}
+ 
+ .errorMessage {
+    color: red;
+} 
+
+.btnColor {
+    background-color:burlywood;
+    color:black;
+    height:  25px;
+   font-weight:bold ;
+   text-align:center;
+   padding: 0px;
+   width: 70px;
+    
+}
+
+.cancel{
+    color :blue;
+}
+
+.email{
+    font-weight: bold;
+}
+
+.input{
+    height: 2%;
+    width: 60%;
+    border-width:0px;
+    border:none;
+} 
+

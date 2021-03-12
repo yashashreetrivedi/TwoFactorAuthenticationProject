@@ -1,0 +1,36 @@
+<div class="container">
+  <div >
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="assets/image/email.png" alt="..."  width="300" height="300">
+      </div>
+      <div class="col-md-8 ">
+        <div class="para">
+          <h5 >Two Factor Authentication</h5>
+          <div > A verification code has been send to your email
+          <p class ="email">ash********@gmail.com</p>
+          </div>
+          <p>This code will be valid for 15 minutes.</p>
+          <form #form="ngForm"  (submit)="onSubmit(form)" autocomplete="off">
+            <div class="form-group">
+                  <div class="input-group mb-2">
+                    <input name="code"  #code ="ngModel"  [(ngModel)]="service.formData.code" class="input" (focus)="showError=false" >
+                    <button class="btnColor btn" id="basic-addon2">Verify</button>
+                  </div>
+                  <p  *ngIf ="showError" class="errorMessage">{{errorMessage}}</p>
+                  <label class="cancel" (click)="resetForm(form)">Cancel</label>      
+            </div>
+          </form>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  
