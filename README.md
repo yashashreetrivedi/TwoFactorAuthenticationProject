@@ -15,7 +15,7 @@
 
 
  ## Starting Application
-   Navigate to RauschSturnProject folder and there will be two projects. one angular frondend and .net web api backend
+   Open TwoFactorAuthenticationProject folder,  Navigate to RauschSturnProject folder and there will be two projects. one angular frondend and .net web api backend
 
  ## Run Backend Project
   1. Go inside AuthApi folder and open AuthApi.sln in visual studio.
